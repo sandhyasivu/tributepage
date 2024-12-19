@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.subheading {
+    font-size: 20px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+/* Bio Section */
+.bio {
+    text-align: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Achievements Section */
+.achievements ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.achievements li {
+    margin: 5px 0;
+}
+
+/* Quotes Section */
+.personal-quotes blockquote {
+    font-style: italic;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Personal Life Section */
+.personal-life {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 123, 255, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
